@@ -13,25 +13,16 @@
         android:theme="@style/Theme.Tree_Hub"
         tools:targetApi="31">
         <activity
-            android:name=".ImageAdapter02"
+            android:name=".Main_GridView"
             android:exported="false" />
         <activity
-            android:name=".Main_ImageAdapter"
+            android:name=".Image_Adapter01"
             android:exported="false" />
         <activity
-            android:name=".ImageAdapter01"
+            android:name=".Image_Adapter02"
             android:exported="false" />
         <activity
             android:name=".MainItem"
-            android:exported="false" />
-        <activity
-            android:name=".Main_Details"
-            android:exported="false" />
-        <activity
-            android:name=".Main_ListView"
-            android:exported="false" />
-        <activity
-            android:name=".Main_ListView01"
             android:exported="false" />
         <activity
             android:name=".Advice_Image_Adapter_01"

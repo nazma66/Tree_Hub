@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         Button button_res1 = findViewById(R.id.button_res1);
         button_res1.setOnClickListener(view -> {
             // Start the Main_ListView activity when the button is clicked
-            Intent intent = new Intent(MainActivity.this, Main_ImageAdapter.class);
+            Intent intent = new Intent(MainActivity.this,Main_GridView.class);
             startActivity(intent);
         });
     }
