@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Tree_Hub" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+    <style name="Base.Theme.Menu_rnd" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+</resources>

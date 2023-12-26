@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Research_Activity"
+    android:background="#D1E3BD">
+
+    <TextView
+        android:id="@+id/text04_res"
+        android:layout_width="408dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="16dp"
+        android:background="#D1E3BD"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Researches/Blogs"
+        android:textAlignment="center"
+        android:textColor="#087E73"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/list_res"
+        android:layout_width="410dp"
+        android:layout_height="692dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="1dp"
+        android:background="#D1E3BD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text04_res" />
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/back"-->
+<!--        android:layout_width="53dp"-->
+<!--        android:layout_height="51dp"-->
+<!--        android:layout_marginStart="1dp"-->
+<!--        android:layout_marginEnd="28dp"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/text04_res"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="?attr/homeAsUpIndicator" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

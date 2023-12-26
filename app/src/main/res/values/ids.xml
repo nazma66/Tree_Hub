@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="coding" type="id" />
+    <item name="programming" type="id" />
+    <item name="tree_advice" type="id" />
+    <item name="research" type="id" />
+    <item name="button_res" type="id" />
+</resources>

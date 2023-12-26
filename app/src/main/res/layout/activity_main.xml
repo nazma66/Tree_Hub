@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+    android:background="@drawable/tree_hub04"
+
+
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Base.Theme.Menu_rnd"
+
+       >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#2A8C83"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextColor="@color/white"
+            />
+
+
+
+         />
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+    <!--    <ImageView-->
+<!--        android:layout_width="397dp"-->
+<!--        android:layout_height="308dp"-->
+<!--        android:src="@drawable/tree_hub04" android:background="#2D93E6DB"/>-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+android:layout_marginLeft="5dp"
+        android:fontFamily="cursive"
+        android:text="TreeHub\nYour Tree Encyclopedia."
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        :layout_marginRight="@android:dimen/app_icon_size"
+        android:layout_width="369dp"
+        android:layout_height="144dp"
+        android:layout_marginLeft="9dp"
+
+        android:text="\nUncover the wonders of the arboreal world! Delve into our app and embark on a journey to learn and explore fascinating facts about trees. "
+
+        android:textColor="@color/white"
+        android:textSize="21dp">
+
+    </TextView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_res1"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="55dp"
+        android:backgroundTint="#087E73"
+        android:text="Get Started"
+        android:textSize="25dp" />
+</LinearLayout>

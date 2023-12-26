@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Tree_Hub" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <!-- Customize the color of the text in the overflow menu -->
+        <item name="android:textColor">#0C8B80</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:buttonStyle">@style/MyButtonStyle</item>
+    </style>
+
+    <style name="Theme.Tree_Hub" parent="Base.Theme.Tree_Hub" />
+
+    <style name="Base.Theme.Menu_rnd" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
+        <item name="android:buttonStyle">@style/MyButtonStyle</item>
+    </style>
+
+    <style name="Theme.Menu_rnd" parent="Base.Theme.Menu_rnd" />
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+    <style name="OverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <style name="MyButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">#0C8B80</item>
+        <!-- Add other button attributes as needed -->
+    </style>
+</resources>
