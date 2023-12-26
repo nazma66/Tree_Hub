@@ -25,6 +25,8 @@ public class Main_GridView extends AppCompatActivity {
                 Intent i = new Intent( Main_GridView.this,Image_Adapter02.class);
                 i.putExtra("id", position);
                 i.putExtra("textData", ((Image_Adapter01) parent.getAdapter()).textArray[position]);
+                i.putExtra("textData2", ((Image_Adapter01) parent.getAdapter()).textArray2[position]);
+                i.putExtra("textData3", ((Image_Adapter01) parent.getAdapter()).textArray3[position]);
                 startActivity(i);
             }
         });

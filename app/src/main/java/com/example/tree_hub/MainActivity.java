@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
         if (id == R.id.settings) {
-            Intent intent = new Intent(this, Settings_Activity.class);
+            Intent intent = new Intent(this, SettingsActivity.class);
             startActivity(intent);
             return true;
         }
