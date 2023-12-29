@@ -41,7 +41,7 @@ public class Advice_Image_Adapter_01 extends BaseAdapter {
             gridViewItem = inflater.inflate(R.layout.grid_item_layout, null);
 
 
-            gridViewItem.setLayoutParams(new GridView.LayoutParams(550, 900));
+            gridViewItem.setLayoutParams(new GridView.LayoutParams(1100, 900));
             gridViewItem.setPadding(6, 6, 6, 8);
         } else {
             gridViewItem = convertView;
